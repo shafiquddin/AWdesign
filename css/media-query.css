@@ -1,0 +1,86 @@
+@media only screen and (max-width: 1200px) {
+  /*same for everyone*/
+}
+
+@media only screen and (max-width: 991px) {
+  .page-header h1 {
+    font-size: 25px;
+  }
+  .nav-menu a {
+    font-size: 16px;
+    padding: 27px 28px;
+  }
+  .header-section h2 {
+    font-size: 31px;
+  }
+  .header-section p {
+    font-size: 16px;
+  }
+  .personal-info img {
+    width: 30%;
+  }
+  .personal-info h2 {
+    font-size: 25px;
+  }
+  .personal-info h3 {
+    font-size: 25px;
+  }
+  .personal-info p {
+    font-size: 16px;
+    max-width: 700px;
+  }
+  .ablities {
+    flex-direction: column;
+  }
+  .container {
+    max-width: 600px;
+  }
+  .ability {
+    margin-right: 0;
+  }
+  .ability i {
+    font-size: 50px;
+    margin-top: 40px;
+  }
+  .ability p {
+    margin-top: 15px;
+  }
+  .works h2 {
+    font-size: 30px;
+  }
+  .works-gallary {
+    justify-content: space-around;
+  }
+  .contact h3 {
+    font-size: 30px;
+  }
+  form.button {
+    font-size: 16px;
+  }
+  footer p {
+    font-size: 16px;
+  }
+  .works-gallary img {
+    width: 48%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /*same for everyone*/
+}
+@media only screen and (max-width: 480px) {
+  .page-header {
+    flex-direction: column;
+  }
+  .nav-menu {
+    margin-top: 25px;
+  }
+  .nav-menu a {
+    padding: 21px 10px;
+  }
+  .works-gallary img {
+    width: 98%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  /*same for everyone*/
+}
